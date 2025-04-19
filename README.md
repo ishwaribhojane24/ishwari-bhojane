@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ishwari Bhojane</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f2f5; }
+. resume-container {display: flex; max-width: 800px; margin: 40px auto; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+. sidebar{width: 30%; background-color: #102c44; color: white; padding: 30px 20px;}
+. sidebar img {width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto 15px; display: block;}
+. sidebar,. sidebar p {text-align: center;}
+.sectionh2-title { font-size: 14px; margin-top: 20px; font-weight: bold; border-bottom: 1px solid #ffffff33; padding-bottom: 5px; }
+.sidebarul{ list-style: none; font-size: 14px; padding-left: 0; }
+.main{ width: 70%; padding: 30px 40px; color: #333; }
+.main h1 { font-size: 28px; color: #00695c; }
+.main p, .mainul{ font-size: 14px; line-height: 1.6; }
+    .print-share, .uploaded-resume { text-align: center; margin: 20px; }
+    .print-share button, .resume-button { padding: 10px 20px; border: none; border-radius: 5px; background-color: #4CAF50; color: black; cursor: pointer; font-size: 14px; }
+    .print-button { background: #00695c; }
+.whatsapp{ background: #25D366; }
+.linkedin{ background: #0a66c2; }
+.reference{ margin-top: 20px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="print-share">
+<button class="print-button" onclick="window.print()">Print Resume</button>
+<button class="whatsapp" onclick="shareWhatsApp()">Share on WhatsApp</button>
+<button class="linkedin" onclick="shareLinkedIn()">Share on LinkedIn</button>
+</div>
+
+<div class="resume-container">
+<div class="sidebar">
+<img src="ib_ph.jpg" alt="Profile Picture"/>
+<h2>Ishwari Bhojane</h2>
+<p>Electronics & Telecommunication Engineering Students</p>
+
+<div class="section-title">CONTACT</div>
+<ul>
+<li>📞 7796161412</li>
+<li>✉ ishwaribhojane2003@gmail.com</li>
+<li>📍Brahmansabha colony, Paratwada, Dist- Amravati</li>
+</ul>
+
+<div class="section-title">SKILLS</div>
+<ul>
+<li>Leadership</li>
+<li>Time Management</li>
+<li>Teamwork</li>
+</ul>
+
+<div class="section-title">LANGUAGES</div>
+<ul>
+<li>English, Hindi, Marathi</li>
+</ul>
+
+<div class="section-title">CODING LANGUAGES</div>
+<ul>
+<li>Python</li>
+<li>Java</li>
+<li>HTML</li>
+</ul>
+<div class="section-title">REFERENCES</div>
+<ul>
+<li>Ishwari Bhojane
+<li>📞 7796161412</li>
+<li>🔗<a href="#" style="color:white;">Online Resume</a></li>
+</ul>
+</div>
+
+<div class="main">
+<h1>Ishwari Bhojane</h1>
+<h3>Education</h3>
+<ul>
+<div class="main">
+<h1>Ishwari Bhojane</h1>
+<h3>Education</h3>
+<ul>
+<li><strong>B.Tech – Electronics and Telecommunication</strong> – P.R. Pote College (2023-2027) – CGPA: 7.45 </li>
+<li><strong>HSC</strong> – Subodh High School |Achalpur  (72%)</li>
+<li><strong>SSC</strong> – Roots Public School |Paratwada (92%)</li>
+</ul>
+
+<h3>Examinations</h3>
+<ul>
+<li>JEE Score: 60</li>
+<li>CET Score: 82</li>
+</ul>
+
+<h3>Career Objective</h3>
+<p>To secure a challenging position that utilizes my years of experience, while allowing me the opportunity to grow professionally.</p>
+
+<h3>Certifications / Internships</h3>
+<ul>
+<li>Google AI-ML Internship – Eduskill</li>
+<li>Python Fullstack Developer Internship – Eduskill</li>
+<li>Communication Skills - TCS-ion </li>
+<li>Machine Learning - Google Developer</li>
+</ul>
+
+<h3>Projects</h3>
+<ul>
+<li>Smart Animal Repellent System using IoT</li>
+</ul>
+
+</div>
+</div>
+
+<div class="uploaded-resume">
+<a href="Ishwaribhojane_Resume.pdf" download>
+<button class="resume-button">📄 Download Resume</button>
+</a>
+</div>
+
+<script>
+constresumeURL = window.location.href;
+
+  function shareWhatsApp() {
+window.open(https://wa.me/?text=Check%20out%20this%20resume:%20${encodeURIComponent(resumeURL)}, '_blank');
+  }
+  function shareLinkedIn() {
+window.open(https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(resumeURL)}, '_blank');
+  }
+</script>
+
+</body>
+</html>
